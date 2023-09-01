@@ -1,79 +1,77 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+Control de Apuestas - Aplicación React Native
+¡Bienvenido a la aplicación de Control de Apuestas desarrollada con React Native!
 
-# Getting Started
+Descripción
+Esta aplicación te permite llevar un registro de tus apuestas de manera fácil y eficiente. Ya sea que estés apostando en deportes, juegos de azar o cualquier otro evento, esta aplicación te ayudará a mantener un seguimiento detallado de tus actividades de apuestas.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+Funcionalidades Principales
+Registro de Apuestas: Registra tus apuestas con detalles como la fecha, el evento, la cantidad apostada y el resultado.
 
-## Step 1: Start the Metro Server
+Historial de Apuestas: Accede a un historial completo de todas tus apuestas anteriores para evaluar tu desempeño.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+Estadísticas: Visualiza estadísticas útiles, como el balance de ganancias y pérdidas, para tomar decisiones informadas.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+Notificaciones: Configura recordatorios y notificaciones para eventos importantes relacionados con tus apuestas.
 
-```bash
-# using npm
+Inicio Rápido
+A continuación, se describen los pasos para comenzar a usar la aplicación:
+
+Paso 1: Iniciar el Servidor Metro
+Primero, debes iniciar Metro, el bundler de JavaScript que se incluye con React Native. Desde la raíz de tu proyecto, ejecuta el siguiente comando:
+
+bash
+Copy code
+# Utilizando npm
 npm start
 
-# OR using Yarn
+# O utilizando Yarn
 yarn start
-```
+Paso 2: Iniciar tu Aplicación
+Mantén ejecutándose Metro Bundler en su propia terminal. Abre una nueva terminal desde la raíz de tu proyecto de React Native y ejecuta el siguiente comando para iniciar tu aplicación en Android o iOS:
 
-## Step 2: Start your Application
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
-
-```bash
-# using npm
+Para Android
+bash
+Copy code
+# Utilizando npm
 npm run android
 
-# OR using Yarn
+# O utilizando Yarn
 yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
+Para iOS
+bash
+Copy code
+# Utilizando npm
 npm run ios
 
-# OR using Yarn
+# O utilizando Yarn
 yarn ios
-```
+Si todo está configurado correctamente, deberías ver tu nueva aplicación en tu Emulador de Android o Simulador de iOS en breve, siempre que hayas configurado correctamente tu emulador o simulador.
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+Esta es una de las formas de ejecutar tu aplicación; también puedes hacerlo directamente desde Android Studio y Xcode respectivamente.
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+Paso 3: Modificar tu Aplicación
+Ahora que has ejecutado la aplicación con éxito, puedes comenzar a modificarla según tus necesidades.
 
-## Step 3: Modifying your App
+Abre App.tsx en tu editor de texto preferido y realiza las modificaciones necesarias.
 
-Now that you have successfully run the app, let's modify it.
+Para Android: Presiona la tecla <kbd>R</kbd> dos veces o selecciona "Recargar" desde el Menú de Desarrollador (<kbd>Ctrl</kbd> + <kbd>M</kbd> en Windows y Linux, o <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> en macOS) para ver tus cambios.
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+Para iOS: Presiona <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> en tu Simulador de iOS para recargar la aplicación y ver los cambios.
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+¡Felicidades! :tada:
+Has ejecutado y modificado con éxito tu aplicación de React Native. :partying_face:
 
-## Congratulations! :tada:
+¿Y ahora qué?
+Si deseas agregar este nuevo código de React Native a una aplicación existente, consulta la Guía de Integración.
+Si tienes curiosidad por aprender más sobre React Native, echa un vistazo a la Introducción a React Native.
+Resolución de Problemas
+Si encuentras dificultades para que todo funcione, consulta la página de Resolución de Problemas.
 
-You've successfully run and modified your React Native App. :partying_face:
+Aprende Más
+Para obtener más información sobre React Native, consulta los siguientes recursos:
 
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Sitio web de React Native - Obtén más información sobre React Native.
+Inicio Rápido - Una visión general de React Native y cómo configurar tu entorno.
+Aprende los Conceptos Básicos - Un recorrido guiado de los conceptos básicos de React Native.
+Blog - Lee las últimas publicaciones oficiales en el blog de React Native.
+@facebook/react-native - El repositorio de GitHub de React Native de código abierto.
